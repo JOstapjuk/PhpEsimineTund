@@ -37,7 +37,7 @@ echo "Esimine sõna on - " . substr($tekst, 0, strpos($tekst, $otsing));
 
 echo "<h2>Kasutame veebis kasutavad näidised</h2>>";
 //sõnade arv lauses
-echo "Sõnade arv lauses - " . str_word_count($tekst);
+echo "Sõnade arv lauses - ".str_word_count($tekst);
 // teksti kärpimine
 $tekst2 = '   Põhitoetus võetakse ära 11.11 kui võlgnevused ei ole parandatud   ';
 echo "<br>";
@@ -48,3 +48,4 @@ echo "<br>";
 echo rtrim($tekst2);
 
 // tekst kui massiiv
+//test
