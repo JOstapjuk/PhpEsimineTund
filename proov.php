@@ -41,11 +41,29 @@ echo "Sõnade arv lauses - ".str_word_count($tekst);
 // teksti kärpimine
 $tekst2 = '   Põhitoetus võetakse ära 11.11 kui võlgnevused ei ole parandatud   ';
 echo "<br>";
-echo trim($tekst2, "P, t..k");
+echo trim($tekst2, "P ");
 echo "<br>";
 echo ltrim($tekst2);
 echo "<br>";
 echo rtrim($tekst2);
 
 // tekst kui massiiv
-//test
+$tekst3 = 'Taindev info opilase kohta';
+echo '<br>';
+echo "Esimine täht - ".$tekst3[0]; // Esimine täht tekstist
+echo '<br>';
+echo "Neljas täht - ".$tekst3[4]; // Neljas täht tekstist
+echo '<br>';
+echo substr($tekst3, 3, 5); // Teksti osa alates indeksist 3, pikkus 5
+echo '<br>';
+echo substr($tekst3, 4, -13); // Teksti osa alates indeksist 4, pikkus -13 (viib lõpuks)
+echo '<br>';
+echo substr($tekst3, -8, 7); // Teksti osa 8 indeksi eest, pikkus 7
+echo '<br>';
+print_r(str_word_count($tekst3, 1)); // Sõnad jaotatud indeksidega
+echo '<br>';
+$sona = str_word_count($tekst3, 1);
+echo "Kolmas sõna - ".$sona[3]; // Kolmas sõna
+echo '<br>';
+print_r(str_word_count($tekst3, 2)); // määratakse sõna indeks vastava sümboli indeksiga kogu massiivis
+
