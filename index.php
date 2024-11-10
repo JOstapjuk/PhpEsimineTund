@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<header>
-    <h1>PHP tunnitööd</h1>
-</header>
+<?php
+//päis
+include('header.php');
+?>
 <?php
 //navigeerimis menu
 include('nav.php')
@@ -19,14 +20,14 @@ include('nav.php')
         include('content/'.$_GET["leht"]);
     }
     else {
-        echo "Tere tulemast!";
+        include('content/kodu.php');
     }
     ?>
 </section>
 <?php
-echo "Jelizaveta Ostapjuk&copy;";
 echo "<br>";
-echo date('Y:m:d');
+//jalus
+include('footer.php');
 ?>
 </body>
 </html>
