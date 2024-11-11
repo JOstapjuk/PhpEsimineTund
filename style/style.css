@@ -34,7 +34,6 @@ li a:hover {
 .item {
     width: calc(25% - 20px);
     padding: 1%;
-    background-color: bisque;
     border: solid 3pt;
     margin-top: 10px;
 }
