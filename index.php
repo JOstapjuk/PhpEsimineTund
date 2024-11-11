@@ -27,7 +27,9 @@ include('nav.php')
 <?php
 echo "<br>";
 //jalus
+//test
 include('footer.php');
 ?>
 </body>
 </html>
+
