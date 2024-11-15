@@ -18,5 +18,11 @@
         <li>
             <a href="?leht=masiivid.php">Massiivid</a>
         </li>
+        <li>
+            <a href="xml/AutodXMLFaili.php" target="_blank">XML autod</a>
+        </li>
+        <li>
+            <a href="xml/OpilasedXmlFaili.php" target="_blank">TARpv23 rühmaleht</a>
+        </li>
     </ul>
 </nav>
