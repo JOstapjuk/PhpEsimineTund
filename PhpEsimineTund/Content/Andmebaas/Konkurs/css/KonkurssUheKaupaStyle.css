@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.nav {
+    width: 250px;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.nav h3 {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li {
+    margin-bottom: 10px;
+}
+
+.nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav ul li a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.main-content {
+    flex: 1;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.main-content h2, .main-content h3 {
+    font-style: italic;
+    color: black;
+}
+
+.main-content form {
+    margin-top: 20px;
+}
+
+.main-content form textarea, .main-content form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.main-content form button, input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-content form button:hover, input[type="submit"]:hover {
+    background-color: gray;
+}
+
+.main-content p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+tr {
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: darkgray;
+}
+
+nav {
+    width: 250px;
+    background-color: lightgray;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 1px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: gray;
+    color: black;
+}

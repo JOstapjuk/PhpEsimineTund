@@ -1,0 +1,102 @@
+ody {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav {
+    width: 250px;
+    background-color: lightgray;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 1px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: gray;
+    color: black;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+tr {
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: darkgray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}

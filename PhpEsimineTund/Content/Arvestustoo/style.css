@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: snow;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: firebrick;
+    padding: 20px 0;
+}
+
+h2 {
+    color: darkgreen;
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 60%;
+}
+
+form input[type="text"], form input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid tomato;
+}
+
+table th {
+    background-color: blanchedalmond;
+}
+
+table tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+table tr:hover {
+    background-color: mistyrose;
+}
+
+nav {
+    background-color: firebrick;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.success-message {
+    text-align: center;
+    color: mediumseagreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-form button:hover {
+    background-color: firebrick;
+}
+
+.signup-form-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form-form p {
+    color: firebrick;
+    font-size: 16px;
+    text-align: center;
+}

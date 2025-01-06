@@ -1,0 +1,59 @@
+.rectangle-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rectangle {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid burlywood;
+    width: 200px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.opilane-nimi {
+    font-weight: bold;
+    font-family: "Bookman Old Style";
+}
+
+h2 {
+    text-align: center;
+}
+
+.Text {
+    font-weight: bold;
+    font-family: "Bookman Old Style";
+    text-align: center;
+}
+
+.AddForm {
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    text-align: center;
+    border: 4px dashed burlywood;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#submit {
+    background-color: burlywood;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}

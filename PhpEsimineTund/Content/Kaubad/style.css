@@ -1,0 +1,145 @@
+body {
+    font-family: "Century Schoolbook";
+    margin-left: 18%;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #dddddd;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: MidnightBlue;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+h2 {
+    color: MidnightBlue;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 3pt groove;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt {
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+dd {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+}
+
+input[type="submit"] {
+    background-color: LightCyan;
+    color: black;
+    border: 1pt solid cornflowerblue;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: auto;
+    font-family: "Century Schoolbook";
+}
+
+input[type="submit"]:hover {
+    background-color: LightBlue;
+}
+
+a {
+    color: RoyalBlue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid LightGray;
+}
+
+th a {
+    text-decoration: none;
+    color: SlateGray;
+}
+
+th a:hover {
+    color: RoyalBlue;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    input[type="submit"] {
+        padding: 12px 20px;
+    }
+}

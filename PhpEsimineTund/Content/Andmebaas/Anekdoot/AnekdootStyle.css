@@ -1,0 +1,117 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightblue;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: royalblue;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.nav {
+    width: 250px;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+.nav h3 {
+    border-bottom: 2px solid royalblue;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: royalblue;
+    letter-spacing: 1px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    margin-bottom: 10px;
+}
+
+.nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav ul li a:hover {
+    background-color: lightblue;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+form label {
+    margin: 5px 0;
+    font-size: 14px;
+    color: navy;
+}
+
+form input,
+form textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid lightsteelblue;
+    border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: blue;
+    outline: none;
+}
+
+form button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: lightsteelblue;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+}
